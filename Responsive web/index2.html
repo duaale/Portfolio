@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Responsive Grid Examples</title>
+</head>
+
+<body>
+  <div class="wrapper">
+      <div class="box box1">
+          <div class="nested">
+          <img src="images/logo.png" alt="Logo">
+          </div>
+          <div class="nested">
+          <ul>
+                  <li><a href="#">Home</a></li>
+                  <li><a href="#">About</a></li>
+                  <li><a href="#">Contact</a></li>
+                  <li><a href="#">Log in</a></li>
+              </ul>
+            </div>
+          
+      </div>
+      <div class="box box2">
+          <div><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, numquam! Sapiente culpa obcaecati facere eveniet minima quisquam dolores blanditiis totam eligendi, voluptate suscipit assumenda officia expedita sunt sint similique at commodi ducimus minus ipsa explicabo! Voluptas praesentium, enim cupiditate labore.</p></div>
+          <di>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi tenetur quo fuga exercitationem, dolores in aut voluptate perferendis odio atque molestiae cumque natus, et perspiciatis enim sunt suscipit laboriosam. Laboriosam, autem fugiat sint ullam provident labore inventore quae. Aperiam ut voluptatum laboriosam, culpa quia eius explicabo. Eveniet quisquam reiciendis in?</p>
+          </di>
+          <div>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius, earum enim dolorum possimus ea, provident, nihil temporibus delectus at eveniet saepe obcaecati ipsam est. Maxime accusamus, voluptatibus harum pariatur, ipsum quod reprehenderit illo placeat, consectetur laborum inventore. Inventore dolore laboriosam, fuga mollitia tempore commodi eum, quod dignissimos dolorum non nulla.</p></div>
+      </div>
+      <div class="box box3">
+          Main
+      </div>
+      <div class="box box4">footer</div>
+  </div>
+   
+  
+</body>
+<style>
+    
+    .wrapper{
+        display:grid;
+        grid-gap:15px;
+    }
+    
+    
+    .box1{
+        display:flex;
+       
+        align-items: center;
+    }
+    
+/*   
+    .box box1{
+        display:grid;
+        grid-template-columns:repeat(4, 1fr);
+        grid-gap:15px;
+        
+    }*/
+    
+    
+    .nested img{
+        padding:20px 20px;
+    }
+    .box2{
+        display:grid;
+        grid-template-columns: repeat(3, 1fr);
+        justify-content: space-around;
+        align-items: stretch;
+        grid-gap: 10px;
+    }
+    .box p{
+        padding:0px 20px;
+    }
+    .box:nth-child(odd){
+        background:#333;
+        color:#fff;
+    }
+    .box:nth-child(even){
+        background:orange;
+    }
+    .nested ul{
+        list-style: none;
+        padding-top: 2px;
+        
+    }
+    li{
+        display:inline-block;
+        padding:10px;
+        
+    }
+    li a{
+        text-decoration: none;
+        display:block;
+        text-transform:uppercase;
+        padding:0.8rem;
+        font-size:1.1rem;
+        color:#fff;
+        text-align:Center;
+     
+    }
+    
+</style>
+    
+</html>
+
+
+
