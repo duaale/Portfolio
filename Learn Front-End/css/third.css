@@ -1,0 +1,40 @@
+body
+{
+    font-family: sans-serif;
+    background: #e3e3e3;
+}
+
+h3{
+    text-shadow: 5px 1px 0px white, 6px 2px 0px red;
+    font-family: sans-serif;
+    font-size: 60px;
+   
+    margin-top: 0;
+    letter-spacing: -5px;
+    color:black;
+    
+}
+li{
+    display:inline;
+    padding-right: 10px;
+    position:relative;
+    bottom:100px;
+    float:right;
+    margin-right: 15px;
+   
+  
+    
+    
+}
+
+ul a{
+    text-decoration: none;
+    color:lightcoral;
+    display: inline-block;
+    
+}
+ul a:hover{
+    color:aqua;
+    text-decoration: underline;
+   
+}

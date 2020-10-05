@@ -1,0 +1,54 @@
+body{
+    font-family: sans-serif;
+}
+.wrap{
+    width: 80%;
+    min-width: 600px;
+    margin:auto;
+    background-color: #e3e3e3;
+    overflow: hidden;
+    
+}
+h1{
+    position:relative;
+    bottom: 100px;
+    text-align: center;
+    
+}
+h3{
+    background: url(../Images/person.jpg) no-repeat;
+    width:224px;
+    height:150px;
+    text-indent: -999px;
+   
+    
+}
+
+.content, aside
+{
+    height:500px;
+}
+.content
+{
+    background-color: aqua;
+    width: 80%;
+    float: left;
+}
+aside
+{
+    float:left;
+    background-color:lightblue;
+    width: 20%;
+    
+}
+
+aside ul
+{
+    list-style: none;
+    padding-left: 0;
+}
+
+li a
+{
+    text-decoration: none;
+}

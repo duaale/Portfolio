@@ -1,0 +1,39 @@
+body
+{
+    font-family: sans-serif;
+}
+form
+{
+    padding-left:0px;
+}
+label
+{
+    
+    color:lightcoral;
+    display: block;
+    margin-bottom: 8px;
+}
+input
+{
+    margin-bottom: 8px;
+    
+}
+textarea
+{
+    width:450px;
+    height:200px;
+}
+input[type="submit"]
+{
+    margin-top: 10px;
+    color:blue;
+    background: #3498db;
+    border:2px solid #2ecc71;
+    border-radius: 24px;
+    padding: 14px 40px;
+    cursor:pointer;
+}
+input[type="submit"]:hover
+{
+    background: #2ecc71;;
+}
